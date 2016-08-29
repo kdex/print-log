@@ -15,6 +15,6 @@ Logs a warning
 #### err(...args)
 Logs an error
 #### error(...args)
-Synonymous to err(...args)
+Synonymous to `err(...args)`
 #### debug(...args)
 Logs a debug message
