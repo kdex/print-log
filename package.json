@@ -33,6 +33,6 @@
     "webpack": "^1.13.2"
   },
   "dependencies": {
-    "babel-polyfill": "^6.13.0"
+    "string.prototype.padstart": "^3.0.0"
   }
 }

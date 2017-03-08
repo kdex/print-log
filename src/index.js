@@ -1,8 +1,8 @@
-import "babel-polyfill";
+import padStart from "string.prototype.padstart";
 import util from "util";
 import chalk from "chalk";
 function fill(value, minLength = 2) {
-	return value.toString().padStart(minLength, "0");
+	return padStart(value.toString(), minLength, "0");
 }
 export function print({
 	messageStyle,
