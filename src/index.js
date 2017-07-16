@@ -36,7 +36,10 @@ export function print({
 		else if (typeof arg === "undefined") {
 			return chalk.red(arg);
 		}
-		else if (arg instanceof Object) {
+		else if (arg === null) {
+			return chalk.green(arg);
+		}
+		else if (typeof arg === "object") {
 			return util.inspect(arg, {
 				colors: true
 			});
