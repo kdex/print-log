@@ -20,7 +20,7 @@
   ],
   "scripts": {
     "compile": "gulp",
-    "prepublish": "npm run compile"
+    "prepublishOnly": "npm run compile"
   },
   "author": "kdex",
   "license": "GPL-3.0",
