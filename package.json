@@ -25,9 +25,10 @@
   "author": "kdex",
   "license": "GPL-3.0",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-stage-0": "^6.24.1"
+    "@babel/cli": "^7.0.0-beta.39",
+    "@babel/core": "^7.0.0-beta.39",
+    "@babel/preset-env": "^7.0.0-beta.39",
+    "@babel/preset-stage-0": "^7.0.0-beta.39"
   },
   "dependencies": {
     "chalk": "^2.3.0",
