@@ -28,7 +28,7 @@
     "@babel/cli": "^7.0.0-beta.51",
     "@babel/core": "^7.0.0-beta.51",
     "@babel/preset-env": "^7.0.0-beta.51",
-    "@babel/preset-stage-0": "^7.0.0-beta.49"
+    "@babel/preset-stage-0": "^7.0.0-beta.51"
   },
   "dependencies": {
     "chalk": "^2.4.1",
